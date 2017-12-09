@@ -1,0 +1,21 @@
+.push {
+  min-height: 5vh;
+}
+
+.game {
+  min-height: 90vh;
+}
+
+.well {
+  min-height: 50vh;
+}
+
+button {
+  min-width: 50%;
+}
+
+@media screen and (max-width: 640px) {
+  .game {
+    min-height: 100vh;
+  }
+}
